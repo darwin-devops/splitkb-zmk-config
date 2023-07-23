@@ -11,12 +11,13 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    keymap {
-        sensors {
+    sensors {
             compatible = "zmk,keymap-sensors";
             sensors = <&left_encoder &right_encoder>;
             triggers-per-rotation = <36>;
     };
+
+    keymap {
         compatible = "zmk,keymap";
 
         default_layer {
