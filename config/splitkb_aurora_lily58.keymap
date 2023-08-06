@@ -144,9 +144,9 @@
 };
 
 &left_encoder {
-    resolution = <1>; // Default is 4
+    resolution = <2>; // Default is 4
 };
 
 &right_encoder {
-    resolution = <1>; // Default is 4
+    resolution = <2>; // Default is 4
 };
