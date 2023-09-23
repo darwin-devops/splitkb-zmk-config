@@ -51,7 +51,7 @@
                            &kp LALT  &kp LGUI  &mo 1   &kp SPACE  &kp RET     &kp BSPC  &mo 2   &kp TILDE
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+           // sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -73,8 +73,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp 0 0>;
+              //  <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+              //  <&inc_dec_kp 0 0>;
         };
 
         raise_layer {
@@ -95,7 +95,7 @@
                            &trans   &trans   &trans   &trans  &trans  &trans       &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+           // sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         sys_layer {
@@ -116,7 +116,7 @@
                                              &trans             &trans        &trans        &trans        &trans        &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+          //  sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         superduper_layer {
@@ -145,15 +145,15 @@
                              &trans    &trans    &trans     &kp SPACE  &kp ENTER  &trans     &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+           // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
 
-&left_encoder {
-    resolution = <2>;// Default is 4
-};
+//&left_encoder {
+//    resolution = <2>;// Default is 4
+//};
 
-&right_encoder {
-    resolution = <2>;// Default is 4
-};
+//&right_encoder {
+//    resolution = <2>;// Default is 4
+//};
